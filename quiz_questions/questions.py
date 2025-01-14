@@ -1,0 +1,25 @@
+from quiz_questions.core import generate_question
+
+questions_pool = [
+    generate_question("What is 5 + 3?", ["5", "6", "7", "8"], "8"),
+    generate_question("If A = 1, B = 2, what is Z?", ["24", "25", "26", "27"], "26"),
+    generate_question("What is the square root of 64?", ["6", "7", "8", "9"], "8"),
+    generate_question("What is 12 * 12?", ["120", "144", "148", "132"], "144"),
+    generate_question("Which number is prime?", ["4", "6", "9", "7"], "7"),
+    generate_question("What is 100 ÷ 5?", ["20", "25", "15", "30"], "20"),
+    generate_question("What is 15% of 200?", ["20", "25", "30", "35"], "30"),
+    generate_question("What is 45 ÷ 3?", ["12", "15", "18", "21"], "15"),
+    generate_question("What is 7 × 8?", ["54", "56", "58", "60"], "56"),
+    generate_question("What is 9²?", ["72", "81", "64", "100"], "81"),
+    generate_question("What is the value of π (Pi)?", ["3.14", "3.15", "3.16", "3.13"], "3.14"),
+    generate_question("What is 10% of 50?", ["5", "6", "7", "8"], "5"),
+    generate_question("What is 20 * 5?", ["100", "120", "110", "130"], "100"),
+    generate_question("What is the square of 15?", ["225", "235", "245", "255"], "225"),
+    generate_question("Which of these is a multiple of 9?", ["12", "18", "20", "21"], "18"),
+    generate_question("What is 56 ÷ 7?", ["6", "7", "8", "9"], "8"),
+    generate_question("What is the square root of 121?", ["10", "11", "12", "13"], "11"),
+    generate_question("If a car travels 60 km/h, how far will it travel in 2 hours?", ["100 km", "120 km", "110 km", "130 km"], "120 km"),
+    generate_question("What is 14 × 14?", ["194", "196", "198", "200"], "196"),
+    generate_question("Which of the following is not a prime number?", ["3", "5", "7", "9"], "9"),
+    generate_question("What is 45% of 80?", ["32", "33", "34", "35"], "36"),
+]

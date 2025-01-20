@@ -15,3 +15,19 @@ To install the package, run:
 
 ```bash
 pip install aptitudetest
+
+```
+## Test the quiz 
+```
+from quiz_questions import conduct_quiz, get_random_questions, questions_pool
+    
+num_questions = int(input("Enter the number of questions for the test: "))
+    
+if num_questions > len(questions_pool):
+    print("Not enough questions in the pool. Please choose a smaller number.")
+else:
+    selected_questions = get_random_questions(questions_pool, num_questions)
+    conduct_quiz(selected_questions)
+
+```
+
